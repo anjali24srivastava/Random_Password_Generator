@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Payment Gateway </title>
+    <link rel="stylesheet" type="text/css" href="payment.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="left">
+        <h3>BILLING ADDRESS</h3>
+        <br><br>
+        <form>
+            Full name
+            <input type="text" name="" placeholder="Enter name">
+            Email
+            <input type="text" name="" placeholder="Enter email">
+            Address
+            <input type="text" name="" placeholder="Enter address">
+            City
+            <input type="text" name="" placeholder="Enter city">
+            <div id="zip">
+                <label>
+                    State
+                    <select>
+                        <option value = "">Choose State....</option>
+                        <option value = "up">Uttar Pradesh</option>
+                        <option value = "mp">Madhya Pradesh</option>
+                        <option value = "gj">Gujarat</option>
+                        <option value = "rj">Rajasthan</option>
+                        <option value = "bh">Bihar</option>
+                    </select>
+                </label>
+                    <label>
+                        Zip code 
+                        <input type="number" name="" placeholder="Zip code">
+                    </label>
+            </div>
+        </div>
+        </form>
+        <div class="right">
+            <h3>PAYMENT</h3>
+            <form>
+                Accepted Card<br>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/FidorBank_Debit_MasterCard_%28cropped%29.jpg" alt="Card" width="100">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr5BFSVbp-2nDNUojjwZL6Hp-boe0x4Hy_BQ&usqp=CAU" width="200">
+                <br><br>
+
+                Credit card number
+                <input type="text" name="" placeholder="Enter card number">
+                Exp month
+                <input type="text" name="" placeholder="Enter month">
+                <div id="zip">
+                    <label>
+                        Exp year
+                        <select>
+                            <option value="">Choose Year....</option>
+                            <option value="27">2027</option>
+                            <option value="26">2026</option>
+                            <option value="25">2025</option>
+                            <option value="24">2024</option>
+                            <option value="23">2023</option>
+                        </select>
+                    </label>
+                        <label>
+                            CVV
+                            <input type="number" name="" placeholder="CVV">
+                        </label>
+                </div>
+            </form>
+             <input type="submit" name="" value="Procced to Checkout">
+        </div>
+    </div>
+</header>
+</body>
+</html>R
